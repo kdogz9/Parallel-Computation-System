@@ -67,7 +67,7 @@ To analyse the performance of the system, I implemented benchmarks which compare
 
 I also compared parallel processing with Burst compilation enabled and disabled to investigate its impact on performance. 
 
-Parallel jobs with burst ended up being 4.5x times faster than single-threaded processing. Parallel jobs with burst was also 4x times faster than parallel jobs without burst. Compared with single-threaded processing, parallel jobs with burst reduced performance time by 78%. These results suggest that burst compilation played an important role in improving the overall performance of the system.
+Parallel jobs with Burst ended up being 4.5x times faster than single-threaded processing. Parallel jobs with Burst was also 4x times faster than parallel jobs without Burst. Compared with single-threaded processing, parallel jobs with Burst reduced performance time by 78%. These results suggest that Burst compilation played an important role in improving the overall performance of the system.
 
 **Results**
 | Method | Average | Median |
@@ -78,12 +78,17 @@ Parallel jobs with burst ended up being 4.5x times faster than single-threaded p
 
 All calculations returned **349,086,087**.
 
+![](https://raw.githubusercontent.com/kdogz9/Parallel-Computation-System/refs/heads/main/Screenshot%202026-11-17%20153138.png)
 
+**Figure 1**. Results with Burst compilation.
 
+![](https://raw.githubusercontent.com/kdogz9/Parallel-Computation-System/refs/heads/main/Screenshot%202026-11-17%20153550.png)
+
+**Figure 2.** Results without Burst compilation. 
 
 ## How Could the Performance Results Inform Optimisation? (60 words)
 
-The results suggest that combing parallel processing with burst compilation can significantly improve performance when processing large amounts of data. Within games development this can be useful for managing multiple objects or processing terrain data. However, further testing with different image sizes and chunk sizes could help identify the most efficient approach and whether smaller workloads benefit from parallel processing.
+The results suggest that combing parallel processing with Burst compilation can significantly improve performance when processing large amounts of data. Within games development this can be useful for managing multiple objects or processing terrain data. However, further testing with different image sizes and chunk sizes could help identify the most efficient approach and whether smaller workloads benefit from parallel processing.
 
 
 ## Declaration and sources 
@@ -94,3 +99,5 @@ Getting Started with the Job System in Unity 2019 (2019) Directed by Code Monkey
 Technologies, U. (s.d.) Unity - Manual: Parallel jobs. At: https://docs.unity3d.com/6000.1/Documentation/Manual/job-system-parallel-for-jobs.html (Accessed  17/11/2026).
 
 Write multithreaded code with the job system • Distribute work across threads • 6000.6 • Unity Editor (s.d.) At: https://docs.unity.com/en-us/engine/6000.6/manual/scripting/programming-distribute-work-threads/job-system (Accessed  17/11/2026).
+
+Rainbow colors Wallpaper 4K (s.d.) At: https://4kwallpapers.com/abstract/rainbow-colors-colorful-background-multi-color-pattern-5k-8k-5679.html (Accessed  17/11/2026). - image used 
